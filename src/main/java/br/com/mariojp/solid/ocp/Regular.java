@@ -8,6 +8,6 @@ public class Regular extends DiscountCalculator {
     }
 
     public double calculateDiscount() {
-        return this.amount * 0.90;
+        return this.amount - (this.amount * 0.90);
     } 
 }

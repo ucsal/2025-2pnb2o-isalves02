@@ -8,6 +8,6 @@ public class Premium extends DiscountCalculator {
     }
 
     public double calculateDiscount() {
-        return this.amount * 0.95;
+        return this.amount - (this.amount * 0.95);
     } 
 }

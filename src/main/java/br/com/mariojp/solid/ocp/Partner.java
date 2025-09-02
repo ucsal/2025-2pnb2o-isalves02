@@ -8,6 +8,6 @@ public class Partner extends DiscountCalculator {
     }
 
     public double calculateDiscount() {
-        return this.amount * 0.12;
+        return this.amount - (this.amount * 0.12);
     } 
 }
